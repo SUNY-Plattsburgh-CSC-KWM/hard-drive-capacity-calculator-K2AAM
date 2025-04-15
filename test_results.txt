@@ -1,0 +1,81 @@
+CSC333 Hard Drive Capacity Test Results
+Adam Morehouse
+14 April 2025
+
+--- Test 1: Tiny Drive ---
+Inputs: Platters=1, Surfaces=1, Tracks=1, Sectors=1, Bytes=512
+Expected Output: Drive size: 512.0 bytes
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 512.0 bytes
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 2: Small Drive ---
+Inputs: Platters=1, Surfaces=2, Tracks=1000, Sectors=100, Bytes=512
+Expected Output: Drive size: 97.7 MB
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 97.7 MB
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 3: Medium Drive ---
+Inputs: Platters=2, Surfaces=2, Tracks=5000, Sectors=500, Bytes=4096
+Expected Output: Drive size: 38.1 GB
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 38.1 GB
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 4: Our Multi-TB Drive ---
+Inputs: Platters=6, Surfaces=2, Tracks=500000, Sectors=2000, Bytes=4096
+Expected Output: Drive size: 44.7 TB
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 44.7 TB
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 5: Huge Drive ---
+Inputs: Platters=8, Surfaces=2, Tracks=1000000, Sectors=3000, Bytes=4096
+Expected Output: Drive size: 178.8 TB
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 178.8 TB
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 6: Minimal Inputs ---
+Inputs: Platters=1, Surfaces=1, Tracks=1, Sectors=1, Bytes=1
+Expected Output: Drive size: 1.0 bytes
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 1.0 bytes
+
+[PASS] Result: PASS
+============================================================
+
+--- Test 7: High Sectors ---
+Inputs: Platters=4, Surfaces=2, Tracks=10000, Sectors=10000, Bytes=512
+Expected Output: Drive size: 381.5 GB
+
+Actual Output:
+Let's figure out your hard drive's size!
+How many platters? How many surfaces per platter? How many tracks per surface? How many sectors per track? How many bytes per sector? Drive size: 381.5 GB
+
+[PASS] Result: PASS
+============================================================
+
